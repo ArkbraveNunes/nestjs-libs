@@ -1,2 +1,2 @@
-export * from './database.mongo.module'
-export * from './database.mongo.service'
+export * from './database.mongo.module';
+export * from './database.mongo.service';

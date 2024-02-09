@@ -1,2 +1,2 @@
-export * from './event-emitter.module';
-export * from './event-emitter.service';
+export * from './src/event-emitter.module';
+export * from './src/event-emitter.service';
