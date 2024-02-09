@@ -2,21 +2,13 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "declaration": true,
-    "outDir": "../../dist/libs/middleware",
+    "outDir": "../../dist/libs/database",
+    "baseUrl": "./",
     "paths": {
       "@libs/*": [
-        "../*"
-      ],
-    },
-    "include": [
-      "src/**/*"
-    ],
-    "exclude": [
-      "node_modules",
-      "dist",
-      "test",
-      "**/*spec.ts"
-    ]
+        "../../libs/*"
+      ]
+    }
   },
   "include": [
     "src/**/*"
