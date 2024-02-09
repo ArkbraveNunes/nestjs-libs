@@ -1,2 +1,7 @@
 # nestjs-libs
-All libs of project nestjs-monorepo
+
+To download all the project's libs, run the command in the nestjs-monorepo directory
+
+```shell
+git submodule init
+```
