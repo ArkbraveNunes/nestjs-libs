@@ -1,6 +1,9 @@
+import { Global, Module } from '@nestjs/common';
 import { ParametersOptions } from './request-context.type';
 import { ClsModule } from 'nestjs-cls';
 
+@Global()
+@Module({})
 export class RequestContextModule {
   static setParameters({ parameters }: ParametersOptions) {
     return {

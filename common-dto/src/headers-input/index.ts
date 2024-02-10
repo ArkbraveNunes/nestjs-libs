@@ -1,1 +1,1 @@
-export * from './tenant-id.header.dto';
+export * from './tenant.header.dto';
