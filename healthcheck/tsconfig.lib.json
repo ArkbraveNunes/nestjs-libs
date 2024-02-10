@@ -2,7 +2,7 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "declaration": true,
-    "outDir": "../../dist/libs/database",
+    "outDir": "../../dist/libs/healthcheck",
     "baseUrl": "./",
     "paths": {
       "@libs/*": [

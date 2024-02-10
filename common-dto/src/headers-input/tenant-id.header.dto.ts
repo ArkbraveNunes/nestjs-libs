@@ -10,7 +10,7 @@ export class TenantIdHeaderInputDto {
 
 export const tenantIdHeaderOptions: ApiHeaderOptions[] = [
   {
-    name: 'tenant',
+    name: 'tenantId',
     required: true,
   },
 ];

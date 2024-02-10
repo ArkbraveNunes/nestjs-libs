@@ -4,9 +4,8 @@ import { HttpStatus } from '@nestjs/common';
 import { ErrorOutput } from './error-output.interface';
 
 export class InternalServerErrorOutputDto implements ErrorOutput {
-  @ApiProperty({ example: [HttpStatus.INTERNAL_SERVER_ERROR] })
+  @ApiProperty({ example: [HttpStatus[HttpStatus.INTERNAL_SERVER_ERROR]] })
   message: string[];
 
-  @ApiProperty({ example: null })
   data: Record<string, any>;
 }
