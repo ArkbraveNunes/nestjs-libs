@@ -1,8 +1,10 @@
+import { TYPE_PARAMETER } from './request-context.enum';
+
 type Parameter = {
   name: string;
-  property: string;
+  type: TYPE_PARAMETER;
 };
 
-export type ParametersOptions = {
+export type RequestContextOptions = {
   parameters: Parameter[];
 };
